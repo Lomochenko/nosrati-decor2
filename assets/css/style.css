@@ -1691,7 +1691,7 @@ body > * {
 }
 
 .one-title {
-  width: 620px;
+  /* width: 620px; */
   margin-bottom: 70px;
 }
 
@@ -1766,6 +1766,7 @@ body > * {
   font-weight: 800;
   line-height: 1.2;
   letter-spacing: 0.01em;
+  text-align: right;
 }
 
 @media only screen and (max-width: 767px) {
