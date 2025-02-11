@@ -1143,14 +1143,15 @@ function initMap() {
                         t.hasClass("image-zoom") && (i = !0), dsnGrid.parallaxMoveElemnt(t, a, n, void 0, i)
                     })
                 },
+                // change color
                 changeColor: function() {
                     const n = "v-light";
                     var a = o.hasClass(n);
                     e('[data-dsn="color"]').each(function() {
-                        let i = dsnGrid.getUndefinedVal(e(this).data("dsn-duration"), e(this).outerHeight() + 70);
+                        let i = dsnGrid.getUndefinedVal(e(this).data("dsn-duration"), e(this).outerHeight() + 500);
                         var s = new ScrollMagic.Scene({
                             triggerElement: this,
-                            triggerHook: .05,
+                            triggerHook: 0.5,
                             duration: i
                         }).addTo(t);
                         s.on("enter", function() {
