@@ -6132,6 +6132,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   background-color: rgba(255, 255, 255, 0.7);
   height: 100%;
   top: 0;
+  text-align: right;
 }
 
 /* .v-light .box-seat.box-seat-full .pro-text {
@@ -7318,7 +7319,8 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 .our-news .item-new .content {
   position: relative;
   bottom: 50px;
-  margin-left: 50px;
+  margin-right: 25px;
+  margin-left: 25px;
   padding: 40px;
   z-index: 1;
   margin-bottom: -50px;
