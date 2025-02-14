@@ -12237,13 +12237,21 @@ footer a,
 footer p {
   color: rgba(194, 194, 194, 0.6);
   margin-bottom: 0;
-  font-size: 11px;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
   line-height: 1.6;
   font-variant-numeric: proportional-nums;
   font-family: "Montserrat", sans-serif;
+}
+footer span{
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin-bottom: .2rem;
 }
 
 .v-light footer a, .v-light
@@ -12370,7 +12378,7 @@ footer .copyright-social ul li:last-child {
   color: #fff;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 15px;
+  /* font-size: 1rem; */
   padding-bottom: 10px;
   margin-bottom: 25px;
   letter-spacing: 2px;
@@ -12383,7 +12391,7 @@ footer .copyright-social ul li:last-child {
 .footer .footer-links .footer-title::after {
   content: "";
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 15px;
   height: 2px;
@@ -12410,7 +12418,7 @@ footer .copyright-social ul li:last-child {
 }
 
 .footer .footer-links .footer-block.col-contact p {
-  font-size: 12px;
+  /* font-size: 12px; */
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -12451,7 +12459,7 @@ footer .copyright-social ul li:last-child {
   color: #fff;
   border-radius: 50%;
   letter-spacing: 0;
-  border: 1px solid rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   height: 35px;
   width: 35px;
   line-height: 35px;
@@ -12528,9 +12536,9 @@ footer .copyright-social ul li:last-child {
   transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0.2s, opacity 0.5s cubic-bezier(0.215, 0.61, 0.355, 1) 0.2s, -webkit-transform 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
 }
 
-.footer .footer-links .footer-block .footer-social ul li a i {
+/* .footer .footer-links .footer-block .footer-social ul li a i {
   font-size: 12px;
-}
+} */
 
 .footer .copyright {
   padding-top: 30px;
