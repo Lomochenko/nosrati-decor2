@@ -1349,7 +1349,13 @@ template {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-left {
+  text-align: left !important;
 }
 
 html {
@@ -2613,6 +2619,11 @@ textarea, .v-light
     flex: unset;
     display: block;
     width: 100%;
+    text-align: right !important;
+    margin-top: .4rem;
+  }
+  .box-info-contact ul{
+    margin-top: 2rem;
   }
 }
 
@@ -11812,7 +11823,7 @@ body.dsn-show-work .dsn-all-work .list-main:nth-of-type(20) .work-item {
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  min-width: 120px;
+  /* min-width: 120px; */
 }
 
 .v-light .box-info-contact ul li span {
@@ -11949,7 +11960,7 @@ label {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  padding-right: 30px;
+  /* padding-left: 30px; */
   color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
