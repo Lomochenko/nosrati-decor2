@@ -21,8 +21,8 @@ import { RouterLink } from 'vue-router';
                 <div class="inner-header">
                     <div class="main-logo">
                         <RouterLink to="/">
-                            <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
-                            <img class="light-logo" src="assets/img/logo.png" alt="" />
+                            <img class="dark-logo" src="@assets/img/logo-dark.png" alt="" />
+                            <img class="light-logo" src="@assets/img/logo.png" alt="" />
                         </RouterLink>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ import { RouterLink } from 'vue-router';
     <!-- End Nav Bar -->
 </template>
 
-<style>
+<style scoped>
 .dsn-nav-bar>.header-top>.header-container,
 .dsn-nav-bar .site-header {
     -webkit-transition: 0.5s ease-in-out;

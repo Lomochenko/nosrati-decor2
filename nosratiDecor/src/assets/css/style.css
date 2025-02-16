@@ -4312,69 +4312,6 @@ body.nav-active .nav address:nth-of-type(5) span, body.nav-active .nav-content a
   width: max-content;
 }
 
-
-
-
-
-body.nav-active .dsn-nav-bar .dsn-wrapper {
-  margin-right: 7px;
-}
-
-body.nav-active .dsn-nav-bar .dsn-wrapper:last-child {
-  margin-right: 0;
-}
-
-body.nav-active .dsn-nav-bar .icon-m {
-  will-change: transform;
-}
-
-body.nav-active .dsn-nav-bar .icon-m .menu-icon-close {
-  will-change: transform;
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
-  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36);
-  transition: -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36);
-  -o-transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36);
-  transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36);
-  transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36), -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36);
-}
-
-body.nav-active .dsn-nav-bar .icon-m:nth-of-type(0) .menu-icon-close {
-  -webkit-transition: opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1200ms, visibility 0.3s 1000ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1000ms;
-  transition: opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1200ms, visibility 0.3s 1000ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1000ms;
-  -o-transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1000ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1200ms, visibility 0.3s 1000ms;
-  transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1000ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1200ms, visibility 0.3s 1000ms;
-  transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1000ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1200ms, visibility 0.3s 1000ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1000ms;
-}
-
-body.nav-active .dsn-nav-bar .icon-m:nth-of-type(1) .menu-icon-close {
-  -webkit-transition: opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms;
-  transition: opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms;
-  -o-transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms;
-  transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms;
-  transition: transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms, opacity 0.3s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1209ms, visibility 0.3s 1045ms, -webkit-transform 0.5s cubic-bezier(0.31, 1.37, 0.68, -0.36) 1009ms;
-}
-
-body.nav-active .dsn-nav-bar .icon-m {
-  overflow: hidden;
-  will-change: transform;
-}
-
-body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
-  opacity: 0;
-  visibility: hidden;
-  will-change: transform;
-  -webkit-transform: translateY(50%) rotate(15deg) scale(0.8);
-  -ms-transform: translateY(50%) rotate(15deg) scale(0.8);
-  transform: translateY(50%) rotate(15deg) scale(0.8);
-  -webkit-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-
 .v-light.nav-active .nav__list-item a {
   color: #fff;
 }
