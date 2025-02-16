@@ -1,14 +1,22 @@
 <script setup>
 import {RouterView } from 'vue-router'
 // import HelloWorld from './components/HelloWorld.vue'
-// import Header from './components/FixHeader.vue'
-// import Animation from './components/FixAnimation.vue'
-// import Footer from './components/FixFooter.vue'
+import Header from './components/FixHeader.vue'
+import Animation from './components/FixAnimation.vue'
+import Footer from './components/FixFooter.vue'
 </script>
 
 <template>
   <!-- <Header -->
-
+    <main class="main-root">
+      <div id="dsn-scrollbar">
+        <div class="wrapper">
+          <Header />
+          <Animation />
+        </div>
+      </div>
+    </main>
+    <Footer />
 
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
