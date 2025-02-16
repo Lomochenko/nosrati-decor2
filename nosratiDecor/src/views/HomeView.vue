@@ -1,9 +1,13 @@
 <script setup>
-// import Header from '../components/FixHeader.vue'
+import Header from '@/components/FixHeader.vue';
+import Animation from '@/components/FixAnimation.vue'
+import Footer from '@/components/FixFooter.vue'
 </script>
 
 <template>
   <main>
-    <!-- <Header /> -->
+    <Header />
+    <Animation />
   </main>
+  <Footer />
 </template>
