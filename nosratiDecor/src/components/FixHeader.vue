@@ -18,14 +18,14 @@ import { RouterLink } from 'vue-router';
     <div class="dsn-nav-bar">
         <div class="site-header">
             <div class="extend-container">
-                <div class="inner-header">
+                <!-- <div class="inner-header">
                     <div class="main-logo">
                         <RouterLink to="/">
                             <img class="dark-logo" src="@assets/img/logo-dark.png" alt="" />
                             <img class="light-logo" src="@assets/img/logo.png" alt="" />
                         </RouterLink>
                     </div>
-                </div>
+                </div> -->
                 <nav class=" accent-menu main-navigation">
                     <ul class="extend-container">
                         <!-- home -->
@@ -42,12 +42,12 @@ import { RouterLink } from 'vue-router';
         </div>
         <div class="header-top header-top-hamburger">
             <div class="header-container">
-                <div class="logo main-logo">
+                <!-- <div class="logo main-logo">
                     <router-link to="/">
                         <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
                         <img class="light-logo" src="assets/img/logo.png" alt="" />
                     </router-link>
-                </div>
+                </div> -->
 
                 <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
                     <div class="icon-m">
